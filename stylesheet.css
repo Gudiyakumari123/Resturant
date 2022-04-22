@@ -1,0 +1,180 @@
+body{
+background-color:maroon;
+}
+
+header{
+background-image:url('backimage.jpg');
+height:300px;
+margin: 5px 5px;
+align:center;
+}
+
+a{
+	
+	color:white;
+}
+
+a:hover{
+	color:orange;
+}
+
+div
+{
+color:black;
+}
+
+#about{
+	background-color:white;
+	color:black;
+}
+
+#menu-tile, #veg-tile,#chicken-tile,#Mutton-tile,#sounth-tile,#barbeque-tile,#sea-tile,#barbe-sea-tile,#bir-cuisi-tile,#veg-bir-tile,#idi-tile,#mgravy-tile,#chi-grevy-tile, #veg-grevy-tile, #indian-bread-tile, #dosa-tile, #noodle-tile, #Desserts-tile,#thala-special-tile,#bucket-tile,#meal-tile,#egg-tile{
+	height:135px;
+	width:200px;
+	margin-bottom:15px;
+	position:relative;
+	border:2px solid #3f0c1f;
+	overflow:hidden;
+}
+
+#menu-tile:hover, #veg-tile:hover,#chicken-tile:hover,#Mutton-tile:hover,#sounth-tile:hover,#barbeque-tile:hover,#sea-tile:hover,#barbe-sea-tile:hover,#bir-cuisi-tile:hover,#veg-bir-tile:hover,#idi-tile:hover,#mgravy-tile:hover,#chi-grevy-tile:hover, #veg-grevy-tile:hover, #indian-bread-tile:hover, #dosa-tile:hover, #noodle-tile:hover, #Desserts-tile:hover,#thala-special-tile:hover,#bucket-tile:hover,#meal-tile:hover,#egg-tile:hover{
+	box-shadow: 0 1px 5px orange;
+}
+
+
+#menu-tile {
+	background:url('sup.jpg') no-repeat;
+	background-position:center;
+	radius:5px;
+}
+
+#veg-tile {
+	background :url('vej starter.jpg') no-repeat;
+	background-position:center;
+}
+
+#chicken-tile{
+	background :url('chicken.jpg') no-repeat;
+	background-position:center;
+}
+
+#Mutton-tile{
+	background :url('m.jpg') no-repeat;
+	background-position:center;
+}	
+
+
+#sounth-tile{
+	background :url('south.jpg') no-repeat;
+	background-position:center;
+}	
+
+#barbeque-tile{
+	background :url('bar.jpg') no-repeat;
+	background-position:center;
+}
+	#sea-tile{
+	background :url('sea.jpg') no-repeat;
+	background-position:center;
+}	
+
+#barbe-sea-tile{
+	background :url('bs.jpg') no-repeat;
+	background-position:center;
+}	
+
+#bir-cuisi-tile{
+	background :url('birryani.jpg') no-repeat;
+	background-position:center;
+}	
+
+#veg-bir-tile{
+	background :url('vg.jpg') no-repeat;
+	background-position:center;
+}	
+
+#idi-tile{
+	background :url('i.jpg') no-repeat;
+	background-position:center;
+}	
+
+
+#mgravy-tile{
+	background :url('mg.jpg') no-repeat;
+	background-position:center;
+}	
+
+
+#chi-grevy-tile{
+	background :url('cg.jpg') no-repeat;
+	background-position:center;
+}	
+
+
+#veg-grevy-tile{
+	background :url('vg.jpg') no-repeat;
+	background-position:center;
+}	
+	
+	
+#indian-bread-tile{
+	background :url('ib.jpg') no-repeat;
+	background-position:center;
+}		
+	
+	
+#dosa-tile{
+	background :url('do.jpg') no-repeat;
+	background-position:center;
+}	
+
+#noodle-tile{
+	background :url('512817152.jpg') no-repeat;
+	background-position:center;
+}		
+
+ #Desserts-tile{
+	background :url('esert.jpg') no-repeat;
+	background-position:center;
+}		
+
+#thala-special-tile{
+	background :url('thala.jpg') no-repeat;
+	background-position:center;
+}		
+
+#bucket-tile{
+	background :url('buk.jpg') no-repeat;
+	background-position:center;
+}		
+
+#meal-tile{
+	background :url('meal.jpg') no-repeat;
+	background-position:center;
+}		
+
+#egg-tile{
+	background :url('egg.jpg') no-repeat;
+	background-position:center;
+}			
+			
+
+.col-md-4{
+	 display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+#menu-tile span,#veg-tile span,#chicken-tile span,#Mutton-tile span,#sounth-tile span,#barbeque-tile span,#sea-tile span,#barbe-sea-tile span,#bir-cuisi-tile span,#veg-bir-tile span,#idi-tile span,#mgravy-tile span,#chi-grevy-tile span,#veg-grevy-tile span, #indian-bread-tile span, #dosa-tile span, #noodle-tile span, #Desserts-tile span,#thala-special-tile span,#bucket-tile span,#meal-tile span,#egg-tile span{
+
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:100%;
+	text-align: center;
+	font-size:1.6em;
+	/*text-transform:lowercase;*/
+	background-color:#fff;
+	opacity:.8;
+}
+	
